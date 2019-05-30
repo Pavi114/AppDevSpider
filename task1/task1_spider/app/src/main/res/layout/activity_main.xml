@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/circle1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/mind_stone"
+        />
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/power_stone"
+        />
+    <ImageView
+        android:id="@+id/circle3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reality_stone"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:id="@+id/circle4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/soul_stone"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:id="@+id/circle5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/space_stone"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:id="@+id/circle6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/time_stone"
+        android:layout_weight="1"
+        />
+
+
+
+</LinearLayout>
